@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="tests" verbose="1">
+
+    <test name="Translate">
+        <classes>
+            <class name="com.tests.testTranslate"/>
+        </classes>
+    </test>
+
+    <test name="Upload">
+        <classes>
+            <class name="com.tests.testDriveUpload"/>
+        </classes>
+    </test>
+</suite>
