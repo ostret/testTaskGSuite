@@ -9,3 +9,6 @@ mvn clean -e test -Dsuite=tests.xml -DdriveEmail=%your gouugle account name% -Dd
 
 Generate allure report:
 allure generate target/allure-results
+
+not fixed: encoding and line isues on files when running withmaven
+not able to close upload dialog
